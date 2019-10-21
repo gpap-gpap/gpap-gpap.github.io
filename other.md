@@ -2,7 +2,9 @@
 try maths:
 
 
-$$ \frac{\partial}{\partial y} $$
+$$ 
+\frac{\partial}{\partial y} 
+$$
 
 
 
