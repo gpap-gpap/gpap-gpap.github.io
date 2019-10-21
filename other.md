@@ -3,7 +3,7 @@ try maths:
 
 
 $$ 
-\frac{\partial}{\partial y} 
+\frac{x}{y} = t
 $$
 
 
