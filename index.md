@@ -1,4 +1,4 @@
-## My geophysics stuff
+## My stuff
 
 Everything is work in progress!
 
