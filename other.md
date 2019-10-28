@@ -3,9 +3,7 @@
 try maths:
 
 
-$$ 
-\frac{x}{y} = t
-$$
+$$ \frac{x}{y} = t $$
 
 
 
