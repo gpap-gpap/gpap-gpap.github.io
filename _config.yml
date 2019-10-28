@@ -2,6 +2,7 @@ theme: jekyll-theme-slate
 title: Giorgos Papageorgiou
 description: Irregualr project updates relating to things in applied maths, geophysics, software
 avatar: https://avatars.githubusercontent.com/gpap-gpap
+baseurl: /Institute-Materials-2017
 markdown: kramdown
 highlighter: rouge
 lsi: false
