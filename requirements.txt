@@ -1,0 +1,10 @@
+nene
+MyST
+jinja2
+PyYAML
+livereload
+click
+rich
+jupyter
+nbformat
+nbconvert
