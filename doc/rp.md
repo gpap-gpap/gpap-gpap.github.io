@@ -7,10 +7,10 @@ include_js: false
 ---
 
 Nothing to see
----
+
 layout: examples
 title: Cover Template
 extra_css:
-  - "cover.css"
 
----
+  - "cover.css"
+  
