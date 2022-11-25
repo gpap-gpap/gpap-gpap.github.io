@@ -13,8 +13,8 @@ logo: images/nene-logo.svg
 thumbnail: images/thumbnail/default.png
 menu:
   - [Home, index]
-  # - [Install, install]
-  # - [Use, manual/index]
+  - [Install, install]
+  - [Use, manual/index]
 ignore:
   - README.md
   - config-alternative.json
