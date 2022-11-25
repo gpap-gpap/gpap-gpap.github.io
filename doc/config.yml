@@ -13,8 +13,10 @@ logo: images/nene-logo.svg
 thumbnail: images/thumbnail/default.png
 menu:
   - [Home, index]
-  - [Install, install]
-  - [Use, manual/index]
+  - [Rock Physics, rp]
+  # - [Attributes, attributes]
+  - [Simulation, wavefield]
+  # - [Inversion, inversion]
 ignore:
   - README.md
   - config-alternative.json
