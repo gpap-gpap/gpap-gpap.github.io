@@ -7,9 +7,11 @@ html_class: "h-100"
 body_class: "d-flex h-100 text-center text-bg-dark"
 include_js: false
 ---
-<!DOCTYPE html>
-<html lang="{{ config.language }}">
-
+<!-- <!DOCTYPE html>
+<html lang="{{ config.language }}"> -->
+<head>
+  <link rel="stylesheet" href="{{ "css/head.css"|relative_to(page.path) }}">
+</head>
 
 {%- macro make_nav_link(name, id, page, site) %}
   {% set aria = "" %}
@@ -50,4 +52,4 @@ include_js: false
     <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
   </footer>
 </div>
-</html>
+<!-- </html> -->
