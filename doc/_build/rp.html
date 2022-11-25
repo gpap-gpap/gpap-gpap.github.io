@@ -1,60 +1,29 @@
+---
+layout: examples
+title: Cover Template
+extra_css:
+  - "cover.css"
+html_class: "h-100"
+body_class: "d-flex h-100 text-center text-bg-dark"
+include_js: false
+---
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Installing | Nēnē</title>
-  <link rel="shortcut icon" href="/images/favicon.png"/>
-
-  <!-- Social media cards -->
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@leouieda">
-  <meta name="twitter:creator" content="@leouieda">
-  <!-- OpenGraph -->
-  <meta property="og:title" content="Installing | Nēnē" />
-  <meta property="og:description" content="Do you love Pelican? Can't enough of that Jekyll? Then Nēnē is probably not for you." />
-  <meta property="og:image" content="https://nene.leouieda.com/images/thumbnail/default.png" />
-  <meta property="og:url" content="https://nene.leouieda.com/rp.html" />
-  <meta property="og:site_name" content="Nēnē" />
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap-5.1/bootstrap.min.css">
-  <!-- FontAwsome icons -->
-  <link rel="stylesheet" href="css/fontawesome/css/all.css">
-  <!-- Main CSS stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Plausible analytics for anonymous usage statistics -->
-  <script defer data-domain="nene.leouieda.com" src="https://plausible.io/js/plausible.js"></script>
-</head>
-
-<body>
-  <header class="shadow-sm">
-    <nav class="navbar navbar-expand-lg navbar-light" aria-labelledby="primary-navigation">
-      <div class="container align-middle">
-        <a class="navbar-brand" href="index.html">
-          <img aria-hidden="true" alt="Project logo" src="images/nene-logo.svg">
-          Nēnē
-        </a>
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse align-middle"  id="navbarNav">
-          <ul class="navbar-nav flex-row flex-wrap">
-              <li class="nav-item col-6 col-md-auto">
-                
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">mantis geophysics</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <li class="nav-item fw-bold py-1 px-0">
+          
   
   
   
   <a class="nav-link"  href="index.html">Home</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                
+        </li>
+        <li class="nav-item fw-bold py-1 px-0">
+          
   
   
   
@@ -62,52 +31,31 @@
     
   
   <a class="nav-link active" aria-current="page" href="rp.html">Rock Physics</a>
-              </li>
-              <li class="nav-item col-6 col-md-auto">
-                
+        </li>
+        <li class="nav-item fw-bold py-1 px-0">
+          
   
   
   
   <a class="nav-link"  href="wavefield.html">Simulation</a>
-              </li>
-          </ul>
-          <ul class="navbar-nav ms-md-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-label="GitHub" href="https://github.com/leouieda/nene" target="_blank"><i class="fab fa-github fa-lg me-1" title="GitHub" aria-hidden="true"></i> GitHub</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
+        <!-- <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a> -->
+      </nav>
+    </div>
   </header>
 
-  <main>
-      <section class="container page-content">
-          <h1>Installing</h1>
-        <p>Nothing to see</p>
-
-      </section>
+  <main class="px-3">
+    <h1>Cover your page.</h1>
+    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+    </p>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>
-        Last updated 2022/11/25 from commit
-        <a href="https://github.com/leouieda/nene/commit/2efcb4a"><code>2efcb4a</code></a>
-      </p>
-      <p>
-        Built with <a href="https://nene.leouieda.com">Nēnē</a> v0.8.0
-      </p>
-      <p>
-        Copyright &copy; 2022 Leonardo Uieda
-      </p>
-    </div>
+  <footer class="mt-auto text-white-50">
+    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
   </footer>
-
-  <!-- Bootstrap bundled Javascript (with their dependencies) -->
-  <script src="js/bootstrap-5.1/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-
-</body>
+</div>
 </html>
