@@ -1,37 +1,24 @@
 ---
-custom_page_title: "Nēnē: A no-frills static site generator"
+custom_page_title: "mantis geophysics"
 exclude_h1: true
-template: base.html
+template: test.html
 ---
 
-<div class="row mb-3 align-items-center">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 <div class="col-md-9 col-sm-8 col-8">
 
 # {{ page.custom_page_title }}
-
-<p class="lead">
-Do you love <a href="https://github.com/getpelican">Pelican</a>?
-Can't get enough of that <a href="https://jekyllrb.com/">Jekyll</a>?
-Then Nēnē is probably not for you.
-</p>
-
 </div>
 <div class="col-md-3 col-sm-4 col-4">
-  <img alt="Nēnē logo" src="/{{ config.logo }}">
+  <img alt="phasor"src="/{{ config.logo }}">
 </div>
 </div>
 
-When I say *no-frills*, I mean it. Nēnē has no built-in templates, no special
-provisions for blogging, plugins, or the sort of thing that would be useful if
-you just want to start a website.
-But it also tries to combine several nice features from other generators into
-something that will appeal to those who want to build their own templates.
+**mantis geophysics** is a University of Edinburgh spinout  created by researchers that have spent the last 10 years developing an innovative simulation approach to the geophysical demands associated with injection, that simplifies and accelerates the process of geophysically evaluating storage potentials. 
 
 <div class="callout">
 
-**Trivia:** *Nēnē* continues the long tradition of naming static site
-generators built in Python after birds (the nēnē is a [goose endemic to
-Hawai'i][nene-goose]).
+Our vision is to become the leading geophysical software and services company that offers: the best tools to use with the most sophisticated physics, delivering full data potential and easy to use capabilities. 
 
 </div>
 

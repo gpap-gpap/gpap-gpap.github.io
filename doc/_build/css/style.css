@@ -22,19 +22,23 @@ img {
 pre {
     margin-bottom: 1rem;
     padding: 1rem;
-    box-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0.1rem 0.2rem 0.2rem rgba(1, 1, 1, 0.1);
     font-size: 1rem;
-    background-color: var(--bs-gray-100);
+    background-color: var(--bs-gray-800);
+}
+
+body {
+  background-color: var(--bs-gray-800);
 }
 
 footer {
   margin-top: 5rem;
   padding: 4rem 0;
-  background-color: var(--bs-gray-200);
+  background-color: var(--bs-gray-800);
 }
 
 header {
-  background-color: var(--bs-gray-100);
+  background-color: var(--bs-gray-800);
 }
 
 a {
@@ -67,6 +71,7 @@ li.nav-item {
 }
 
 .navbar-brand img {
+  
   height: 1.8rem;
   width: 1.8rem;
   margin-right: 0.5rem;
@@ -84,7 +89,7 @@ li.nav-item {
   padding: 1rem 1rem 0.001rem;
   border-left: 0.3rem solid var(--bs-yellow);
   box-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
-  background-color: var(--bs-gray-100);
+  background-color: var(--bs-gray-800);
 }
 
 .callout-warning {
