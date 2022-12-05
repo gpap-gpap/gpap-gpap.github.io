@@ -18,7 +18,7 @@ template: test.html
 
 <div class="callout">
 
-Our vision is to become the leading geophysical software and services company that offers: the best tools to use with the most sophisticated physics, delivering full data potential and easy to use capabilities. 
+Our vision is to become the leading geophysical software and services company that offers the most sophisticated rock physics tools on the market, delivering full data potential and easy to use capabilities. 
 
 </div>
 

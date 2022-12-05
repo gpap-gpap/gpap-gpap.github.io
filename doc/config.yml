@@ -8,7 +8,7 @@ repository: gpap-gpap/anisotroPY
 twitter: leouieda
 url: https://nene.leouieda.com
 favicon: images/favicon.png
-logo: images/pwi_icon_coarse.svg
+logo: images/pwi_icon_coarse_line.svg
 thumbnail: images/thumbnail/default.png
 menu:
   - [Home, index]
