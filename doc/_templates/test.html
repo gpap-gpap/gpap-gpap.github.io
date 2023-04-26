@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ config.language }}">
+{%- macro make_nav_link(name, id, page, site) %}
+  {% set aria = "" %}
+  {% set class = "nav-link" %}
+  {% if page.id == id %}
+    {% set class = class + " active" %}
+    {% set aria = 'aria-current="page"' %}
+  {% endif %}
+  <a class="{{ class }}" {{ aria }} href="{{ site[id].path|relative_to(page.path) }}">{{ name }}</a>
+{%- endmacro %}
+
+  <head>
+    <meta charset="utf-8"/>
+    {%- if page.custom_page_title is defined %}
+    {%- set title = page.custom_page_title|striptags|e %}
+    {%- else %}
+      {%- set title = page.title|striptags|e + " | " + config.site_name|striptags|e %}
+    {%- endif %}
+    <title>{{ title }}</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ "css/bootstrap-5.1/bootstrap.css"|relative_to(page.path) }}">
+    <link rel="stylesheet" href="{{ "css/cover.css"|relative_to(page.path) }}">
+    {%- block extrahead %}{% endblock %}
+  </head>
+
+<body class="d-flex h-100  text-bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-1 mx-auto flex-column">
+    <header class="mb-auto">
+      <div class="container align-middle">
+        <a class="navbar-brand" href="{{ "index.html"|relative_to(page.path) }}">
+          <img aria-hidden="true" alt="Project logo" src="{{ config.logo|relative_to(page.path) }}">
+          {{ config.site_name }}
+        </a>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          {%- for name, id in config.menu %}
+              <li class="nav-item col-6 col-md-auto">
+                {{ make_nav_link(name, id, page, site) }}
+              </li>
+          {%- endfor %}
+          <!-- <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+          <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
+          <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a> -->
+        </nav>
+      </div>
+    </header>
+  
+    <main>
+        {%- block content %}
+        <section class="container page-content">
+          {%- if page.exclude_h1 is defined and page.exclude_h1 %}
+          {%- else %}
+            <h1>{{ page.title }}</h1>
+          {%- endif %}
+          {{ page.body }}
+        </section>
+        {%- endblock %}
+    </main>
+  
+    <footer class="mt-auto text-white-50">
+      <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>

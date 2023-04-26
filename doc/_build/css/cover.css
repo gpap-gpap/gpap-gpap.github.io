@@ -1,0 +1,82 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+}
+
+.cover-container {
+  max-width: 54em;
+}
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+
+.callout {
+  margin: 0 auto 1.5rem;
+  /* Set a tiny bottom padding because 0 causes it to ignore the p padding */
+  padding: 1rem 1rem 0.001rem;
+  border-left: 0.3rem solid var(--bs-orange );
+  box-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1);
+  background-color: var(--bs-gray-800);
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: var(--bs-orange);
+}
+
+a:visited {
+  color: var(--bs-orange)
+}
+
+.navbar-brand img {
+  color: var(--bs-white);
+  height: 4rem;
+  width: 6rem;
+  margin-right: 0.5rem;
+}
